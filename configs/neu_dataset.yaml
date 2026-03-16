@@ -1,0 +1,17 @@
+# NEU Surface Defect Dataset — YOLOv8 Configuration
+# Source: http://faculty.neu.edu.cn/yunhyan/NEU_surface_defect_database.html
+# 1,800 images | 6 defect classes | 300 per class | 200x200px grayscale
+
+path: data/neu_yolo
+train: images/train
+val:   images/val
+test:  images/test
+
+nc: 6
+names:
+  - Crazing
+  - Inclusion
+  - Patches
+  - Pitted Surface
+  - Rolled-in Scale
+  - Scratches
